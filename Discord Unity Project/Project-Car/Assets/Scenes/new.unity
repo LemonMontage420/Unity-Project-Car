@@ -537,8 +537,8 @@ MonoBehaviour:
     m_NumAlphaKeys: 2
   skyColorGradient:
     serializedVersion: 2
-    key0: {r: 1, g: 1, b: 1, a: 1}
-    key1: {r: 1, g: 1, b: 1, a: 1}
+    key0: {r: 0.33606383, g: 0, b: 0.5283019, a: 1}
+    key1: {r: 0, g: 0.772727, b: 1, a: 1}
     key2: {r: 1, g: 1, b: 1, a: 0}
     key3: {r: 0, g: 0, b: 0, a: 0}
     key4: {r: 0, g: 0, b: 0, a: 0}
@@ -611,7 +611,7 @@ MonoBehaviour:
       outWeight: 0.08318264
     - serializedVersion: 3
       time: 0.5
-      value: 0
+      value: 0.1
       inSlope: 0.010345823
       outSlope: 0.010345823
       tangentMode: 0
