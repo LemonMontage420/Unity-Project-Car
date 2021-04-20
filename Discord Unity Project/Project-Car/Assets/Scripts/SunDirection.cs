@@ -16,5 +16,6 @@ public class SunDirection : MonoBehaviour
     void Update()
     {
         skybox.SetVector("_SunDirection", transform.forward);
+        Debug.Log(skybox.GetVector("_SunDirection"));
     }
 }
