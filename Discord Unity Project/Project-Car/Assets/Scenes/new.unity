@@ -26,7 +26,7 @@ RenderSettings:
   m_AmbientIntensity: 1
   m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
-  m_SkyboxMaterial: {fileID: 2100000, guid: d78144f521d887640bdc4a0ba972853f, type: 2}
+  m_SkyboxMaterial: {fileID: 2100000, guid: bd9d8ab71b21d49479e9e7eec4adff66, type: 2}
   m_HaloStrength: 0.5
   m_FlareStrength: 1
   m_FlareFadeSpeed: 3
@@ -332,7 +332,7 @@ PrefabInstance:
     - target: {fileID: 8582542128552992239, guid: f5112506cdc3089448acd23348520196,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0.18395996
+      value: 1.1
       objectReference: {fileID: 0}
     - target: {fileID: 8582542128552992239, guid: f5112506cdc3089448acd23348520196,
         type: 3}
@@ -538,15 +538,15 @@ MonoBehaviour:
   skyColorGradient:
     serializedVersion: 2
     key0: {r: 0.33606383, g: 0, b: 0.5283019, a: 1}
-    key1: {r: 0, g: 0.772727, b: 1, a: 1}
-    key2: {r: 1, g: 1, b: 1, a: 0}
+    key1: {r: 1, g: 1, b: 1, a: 1}
+    key2: {r: 0.3372549, g: 0, b: 0.5294118, a: 0}
     key3: {r: 0, g: 0, b: 0, a: 0}
     key4: {r: 0, g: 0, b: 0, a: 0}
     key5: {r: 0, g: 0, b: 0, a: 0}
     key6: {r: 0, g: 0, b: 0, a: 0}
     key7: {r: 0, g: 0, b: 0, a: 0}
     ctime0: 0
-    ctime1: 65535
+    ctime1: 32768
     ctime2: 65535
     ctime3: 0
     ctime4: 0
@@ -562,7 +562,7 @@ MonoBehaviour:
     atime6: 0
     atime7: 0
     m_Mode: 0
-    m_NumColorKeys: 2
+    m_NumColorKeys: 3
     m_NumAlphaKeys: 2
   starPowerCurve:
     serializedVersion: 2
