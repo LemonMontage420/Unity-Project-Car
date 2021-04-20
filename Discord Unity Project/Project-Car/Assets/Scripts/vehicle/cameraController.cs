@@ -27,7 +27,7 @@ public class cameraController : MonoBehaviour
     
 
     void Start(){
-
+        cameraPos = new Vector2[4];
         cameraPos[0] = new Vector2(2,0);
         cameraPos[1] = new Vector2(7.5f,0.5f);
         cameraPos[2] = new Vector2(8.4f,1.6f);
