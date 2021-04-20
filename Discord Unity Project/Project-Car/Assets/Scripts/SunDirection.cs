@@ -6,16 +6,12 @@ public class SunDirection : MonoBehaviour
 {
     public Material skybox;
 
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public Transform sun;
+    public Transform moon;
 
-    // Update is called once per frame
     void Update()
     {
-        skybox.SetVector("_SunDirection", transform.forward);
-        Debug.Log(skybox.GetVector("_SunDirection"));
+        skybox.SetVector("_SunDirection", sun.forward);
+        skybox.SetVector("_MoonDirection", moon.forward);
     }
 }
